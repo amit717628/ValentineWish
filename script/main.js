@@ -287,7 +287,7 @@ const fetchData = () => {
               .getElementById(customData)
               .setAttribute("src", data[customData]);
           } else {
-            const smx = prompt("Aapka Naam?","Naam");
+            const smx = prompt("Aapka Naam?");
 document.getElementById("lund").innerText=smx;
 
             document.getElementById(customData).innerText = data[customData];
